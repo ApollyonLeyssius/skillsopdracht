@@ -35,6 +35,14 @@ body{
     font-size: 150%;
 }
 
+.hb:hover{
+    cursor: pointer;
+}
+
+.navi{
+    position: absolute;
+}
+
 .groot{
     width: 100%;
     height: 110vh;
