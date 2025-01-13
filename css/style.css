@@ -51,10 +51,11 @@ body{
     padding: 40px;
 }
 
-.ctitle{
+.ctitle, .infot{
     text-transform: uppercase;
     font-size: 350%;
     font-weight: 400;
+    margin-bottom: 40px;
 }
 
 .lijst{
@@ -62,10 +63,35 @@ body{
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
 .lijstitem{
     background-color: black;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 700px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.lijstitem > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info{
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block{
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.info p{
+    max-width: 50ch;
 }
